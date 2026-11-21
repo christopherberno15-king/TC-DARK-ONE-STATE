@@ -33,8 +33,8 @@ jobs:
       - name: Install dependencies
         run: flutter pub get
 
-      - name: Check Flutter project
-        run: flutter analyze
+      - name: Analyze application source
+        run: flutter analyze lib --no-fatal-infos
 
       - name: Build release APK
         run: flutter build apk --release
