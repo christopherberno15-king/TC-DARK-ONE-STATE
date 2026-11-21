@@ -26,7 +26,6 @@ class _TcDarkAppState extends State<TcDarkApp> {
         brightness: Brightness.dark,
         scaffoldBackgroundColor: bg,
         colorScheme: ColorScheme.fromSeed(seedColor: red, brightness: Brightness.dark),
-        cardTheme: const CardTheme(color: panel, elevation: 0),
         useMaterial3: true,
       ),
       home: Scaffold(
