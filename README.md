@@ -1,3 +1,5 @@
+flutter pub get
+flutter build apk --release
 # TC DARK - ONE STATE PANEL
 
 TC DARK is an independent companion app for One State players. It provides a dark/red dashboard, French and English interface, searchable modules, and a personal studio for organizing notes and goals.
